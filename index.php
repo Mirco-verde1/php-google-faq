@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="dist/app.css">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -60,6 +61,19 @@ $dataGoogle = [
 ]
     ?>
 
+<div class="container-faq">
+
+<header>
+  <div class="header">
+    
+  </div>
+</header>
+
+  <div class="content">
+
+
+
+
 
     <?php
 
@@ -70,21 +84,22 @@ $dataGoogle = [
 <div class="question">
 
  <h2> <?php echo $value['question']; ?> </h2>
- <br>
+
  <p> <?php echo $value['answer']; ?> </p>
 
 <br>
 <br>
 </div>
 
+
      <?php
-
-
-
       }
 
      ?>
 
 
+
+  </div> //end content
+</div> //end container faq
   </body>
 </html>
