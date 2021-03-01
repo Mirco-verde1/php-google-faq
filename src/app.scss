@@ -1,13 +1,60 @@
 @import "reset";
 
 .container-faq{
-@include reset;
+  @include reset;
 
- .header{
-   width: 100%;
-   height: 80px;
-   background: grey;
- }
+  .header{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+    color: rgb(61, 68, 74);
+    margin-bottom: 70px;
+
+
+    .logo-part{
+      width: 280px;
+      height: 50%;
+      font-size: 24px;
+      padding-top: 16px;
+
+      span{
+        img{
+          height: 90px;
+          vertical-align: middle;
+        }
+      }
+
+    }
+
+    .item-menu{
+      margin-left: -38px;
+
+    ul{
+      li{
+        list-style: none;
+        display: inline;
+        font-size: 18px;
+        padding-right: 30px;
+      }
+      li:last-child{
+        color: rgb(72, 101,171 );
+      }
+
+    }
+
+    .color-bar{
+      width: 155px;
+      height: 3px;
+      background: #4865ab;
+      position: absolute;
+      left: 44%;
+      top: 117px;
+
+    }
+
+    }
+  }
 
   .content{
     width: 1000px;
@@ -18,10 +65,13 @@
 
       .question{
         color: rgb(61, 68, 74);
+
       }
 
       .answer{
         color: rgb(55, 49, 59);
+        font-size: 18px;
+
 
       }
     }

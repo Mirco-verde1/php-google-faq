@@ -5,8 +5,41 @@
 }
 .container-faq .header {
   width: 100%;
-  height: 80px;
-  background: grey;
+  height: 120px;
+  position: relative;
+  border-bottom: 1px solid lightgrey;
+  color: #3d444a;
+  margin-bottom: 70px;
+}
+.container-faq .header .logo-part {
+  width: 280px;
+  height: 50%;
+  font-size: 24px;
+  padding-top: 16px;
+}
+.container-faq .header .logo-part span img {
+  height: 90px;
+  vertical-align: middle;
+}
+.container-faq .header .item-menu {
+  margin-left: -38px;
+}
+.container-faq .header .item-menu ul li {
+  list-style: none;
+  display: inline;
+  font-size: 18px;
+  padding-right: 30px;
+}
+.container-faq .header .item-menu ul li:last-child {
+  color: #4865ab;
+}
+.container-faq .header .item-menu .color-bar {
+  width: 155px;
+  height: 3px;
+  background: #4865ab;
+  position: absolute;
+  left: 44%;
+  top: 117px;
 }
 .container-faq .content {
   width: 1000px;
@@ -18,4 +51,5 @@
 }
 .container-faq .content .faq .answer {
   color: #37313b;
+  font-size: 18px;
 }
